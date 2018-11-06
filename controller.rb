@@ -20,3 +20,11 @@ end
 get '/' do
   erb(:home)
 end
+
+get '/multiplayer' do
+  erb(:multiplayer)
+end
+
+get '/single-player' do
+  erb(:single_player)
+end
