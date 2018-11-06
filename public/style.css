@@ -1,7 +1,9 @@
 body {
   background-color: green;
+  font: helvetica;
 }
 
 p {
   font-size: 20;
+  font-style: italic;
 }

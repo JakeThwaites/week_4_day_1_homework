@@ -23,8 +23,7 @@ class RockPaperScissors
     end
   end
 
-  def self.check_result__multiplayer(choice1, choice2
-)
+  def self.check_result__multiplayer(choice1, choice2)
 
     winning = {"rock" => "scissors", "scissors" => "paper", "paper" => "rock"}
 

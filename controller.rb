@@ -8,7 +8,7 @@ get '/multiplayer/:choice1/:choice2' do
   second_choice = params[:choice2].to_s
 
   @calculation = RockPaperScissors.check_result__multiplayer(first_choice, second_choice)
-  erb(:result)
+  erb(:multiplayer_result)
 end
 
 get '/single-player/:choice' do
