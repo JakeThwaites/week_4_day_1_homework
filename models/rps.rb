@@ -10,13 +10,13 @@ class RockPaperScissors
     winning = {"rock" => "scissors", "scissors" => "paper", "paper" => "rock"}
 
     if choice1 == choice2
-      puts "It's a draw"
+      return "It's a draw"
     elsif winning[choice1] == choice2
-      puts "You win!"
+      return "Player 1 plays #{choice1}. Player 1 wins!"
     elsif winning[choice2] == choice1
-      puts "You lose!"
+      return "Player 2 plays #{choice2}. Player 2 wins!"
     else
-      puts "It's a draw!"
+      return "These options aren't valid!"
     end
   end
 
